@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Doctor Appointment System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Doctor Appointment System</h1>
+        <p>Book appointments easily and quickly</p>
+    </header>
+
+    <main>
+
+        <!-- Doctor Search -->
+        <section class="section-box">
+            <h2>Find a Doctor</h2>
+            <input type="text" id="searchDoctor" placeholder="Search doctor by name or specialty...">
+            <div id="doctorList"></div>
+        </section>
+
+        <!-- Appointment Form -->
+        <section class="section-box">
+            <h2>Book Appointment</h2>
+            <form id="appointmentForm">
+
+                <label>Select Doctor:</label>
+                <select id="doctorSelect" required></select>
+
+                <label>Select Date:</label>
+                <input type="date" id="appointmentDate" required>
+
+                <label>Select Time Slot:</label>
+                <select id="timeSlot" required>
+                    <option value="">Choose a slot</option>
+                </select>
+
+                <label>Your Name:</label>
+                <input type="text" id="patientName" required>
+
+                <label>Your Contact:</label>
+                <input type="text" id="patientContact" required>
+
+                <button type="submit">Confirm Appointment</button>
+            </form>
+        </section>
+
+        <!-- Appointment List -->
+        <section class="section-box">
+            <h2>Your Appointments</h2>
+            <div id="appointmentList"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Doctor Appointment System</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
