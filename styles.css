@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background: #0078D7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-box {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 85%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    background: #0078D7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+.doctor-card {
+    background: #e9f5ff;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+.appointment-card {
+    background: #fff4d7;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
